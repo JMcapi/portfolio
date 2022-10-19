@@ -869,7 +869,7 @@ main {
   animation: backgAnimated 2s infinite alternate;
   border-top: 1px solid #205B60;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
 
 }
 
@@ -990,7 +990,7 @@ main {
 /*footer begin */
 footer {
   text-align: center;
-  height: 20vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
