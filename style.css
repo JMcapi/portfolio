@@ -7,16 +7,16 @@
 *,
 *:before,
 *:after {
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 html {
-  overflow-x: hidden;
   background-color: #1b1b1b;
   font-family: 'Open Sans', sans-serif;
+  overflow-x:hidden;
 }
 
 /*scroll bar*/
@@ -322,7 +322,6 @@ main {
 }
 
 .desc {
-
   margin-left: 14vw;
   width: 70vw;
   height: 90vh;
@@ -356,7 +355,7 @@ main {
 
 .imgavatar {
   margin-right: 20px;
-  width: 28vh;
+  width: 24vh;
   border-radius: 50%;
   border: 1px solid #205B60;
   box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
@@ -843,19 +842,7 @@ main {
   transition-delay: 0.6s;
   transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-
-
-
 /*FIM skills*/
-
 
 
 
@@ -985,12 +972,6 @@ main {
 /*end contact */
 
 
-
-
-
-
-
-
 /*footer begin */
 footer {
   text-align: center;
@@ -1010,6 +991,30 @@ footer h3 {
 }
 
 /*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1051,6 +1056,9 @@ footer h3 {
 @media (max-width:800px) {
   main {
     height: 110vh;
+  }
+  .desc{
+    margin-top: 50px ;
   }
 
   .text p {
