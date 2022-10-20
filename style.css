@@ -1142,8 +1142,14 @@ height:400px;
   .componente {
     width: 23%;
   }
-}
 
+  
+}
+@media (max-width:500px){
+  .mainDesign{
+    height:420px;
+  }
+}
 
 @media (max-width:650px){
   .componente {
