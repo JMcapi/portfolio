@@ -11,7 +11,9 @@
   padding: 0;
 }
 
-
+body{
+  overflow-x: hidden;
+}
 
 html {
   background-color: #1b1b1b;
@@ -1069,12 +1071,24 @@ footer h3 {
   main {
     height: 110vh;
   }
+
+  .mainDesign{
+    height:400px;
+  }
   .desc{
     margin-top: 50px ;
   }
 
   .text p {
     font-size: 13px;
+  }
+
+  .art img {
+    width: 30vh;
+  }
+
+  .imgavatar{
+    margin-bottom: 10px;
   }
 
   .card1 {
