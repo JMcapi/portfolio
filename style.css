@@ -12,7 +12,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 html {
@@ -1072,8 +1072,8 @@ footer h3 {
     height: 110vh;
   }
 
-  .mainDesign{
-    height:400px;
+  #jstext{
+    font-size: 10px;
   }
   .desc{
     margin-top: 50px ;
@@ -1084,7 +1084,7 @@ footer h3 {
   }
 
   .art img {
-    width: 30vh;
+    width: 35vh;
   }
 
   .imgavatar{
